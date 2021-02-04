@@ -3,3 +3,4 @@ PanclusGz is the panclus version for the next the older version named Panclus wh
 
 # Sub-Modules 
 [locations](https://github.com/Ayush2007A/PanclusGz/blob/main/locations.py)
+[dependencies](https://github.com/Ayush2007A/PanclusGz/blob/main/locations.py)
