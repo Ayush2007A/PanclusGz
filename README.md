@@ -6,3 +6,9 @@ PanclusGz is the panclus version for the next the older version named Panclus wh
 2. [dependencies](https://github.com/Ayush2007A/PanclusGz/blob/main/locations.py)<br>
 3. [Gz](https://github.com/Ayush2007A/PanclusGz/blob/main/Gz.py)<br>
 4. [Installer](https://github.com/Ayush2007A/PanclusGz/blob/main/Installer.py)<br>
+
+# locations:
+	from PanclusGz import locations as ls
+	# To find the weather of any place
+	ls.get_weather('India')
+	
