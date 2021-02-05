@@ -64,9 +64,11 @@ PanclusGz is the panclus version for the next the older version named Panclus wh
 
 # Installer:
 Installer is a basic app to install python packages
+	
 	from PanclusGz import Installer
 
 # Dependencies:
 It is used to see dependencies of the package
 	
 	from PanclusGz import dependencies 
+	dependencies.show_dependencies()
