@@ -1,3 +1,6 @@
+PanclusGz is the panclus version for the next the older version named Panclus which was not the best but it was very useful in calculating the dates of solar and lunar eclipses as well as in converting speech to text in any language and with the translation of the text.PanclusGz comes with all these features and also have more attributes as well as some sub-modules.
+# Usage for PanclusGz:
+
 # Sub-Modules 
 1. [locations](https://github.com/Ayush2007A/PanclusGz/blob/main/locations.py)<br>
 2. [dependencies](https://github.com/Ayush2007A/PanclusGz/blob/main/locations.py)<br>
@@ -48,4 +51,22 @@
 	gz.copy('hello')
 	gz.paste()
 
+	# To see date and time
+	gz.show_date()
+	gz.show_time()
+
+	# To translate text
+	gz.translate(from_language,to_language,text_of_translation)
+	gz.translate('english','hindi','hello')
+
+	# To open a file from system
+	gz.openfile('cmd')
+
+# Installer:
+Installer is a basic app to install python packages
+	from PanclusGz import Installer
+
+# Dependencies:
+It is used to see dependencies of the package
 	
+	from PanclusGz import dependencies 
